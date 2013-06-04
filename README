@@ -1,0 +1,31 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=4610
+
+Full plugin located at: https://github.com/jtmkrueger/vim-c-cr
+
+vim-c-cr
+A very simple and small (eighteen lines of vimscript) plugin that maps ctrl+enter (<c-cr>) in insert mode to finish braces ({}), brackets ([]) and parentheses (()) for you and puts your cursor tabbed over on a blank line between them.
+
+So,
+
+{<c-cr>
+or
+[<c-cr>
+or
+(<c-cr>
+will give you
+
+{
+  <your cursor here>
+}
+or
+[
+  <your cursor here>
+]
+or
+(
+  <your cursor here>
+)
+
+DISCLAIMER
+
+This only works with gvim!
